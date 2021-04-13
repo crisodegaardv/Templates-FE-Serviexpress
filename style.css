@@ -108,7 +108,7 @@ img {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
-    background-image: url(/img/mecanico2.jpg);
+    background-image: url(/img/taller-1.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ img {
 #nosotros::before {
     position: absolute;
     content: '';
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     top: 0;
     bottom: 0;
     left: 0;
@@ -141,7 +141,12 @@ img {
 }
 
 /*Sección Footer*/
-
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
 
 /*Form.html*/
 

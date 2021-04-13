@@ -20,12 +20,12 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" id="nav-icon-items">
-            <img src="/img/Taller Mecánico Automotriz - Taller Mecanico Tecniexpress_files/logo2.png" alt="">
-        </a>
-        <button class="navbar-toggler" id="nav-toggler-item" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="/index.html" id="nav-icon-items">
+        <img src="/img/Taller Mecánico Automotriz - Taller Mecanico Tecniexpress_files/logo2.png" alt="serviexpress-logo">
+      </a>
+      <button class="navbar-toggler" id="nav-toggler-item" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
@@ -59,6 +59,7 @@
                 <a class="dropdown-item" href="/">Generar Pedido</a>
                 <a class="dropdown-item" href="/">Generar Factura</a>
                 <a class="dropdown-item" href="/">Inventario</a>
+                <a class="dropdown-item" href="/">Informes</a>
                 </div>
             </li>
             </ul>
@@ -66,90 +67,99 @@
     </nav>
 
     <div>
-        <div class="py-5 text-center ">
-            <h2>Registro de Personas</h2>
-            <p class="lead">Llene el formulario con los datos de la persona para poder registrarla en el sistema.</p>
-        </div>
-
-        <div class="col-md-8 order-md-1">
-
-          <form class="needs-validation mx-auto" novalidate>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">Primer Nombre</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                    Ingrese un nombre valido.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Apellido Paterno</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                    Ingrese un apellido paterno valido.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Apellido Materno</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Ingrese un apellido materno valido.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Rut</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Ingrese un Rut valido.
-                </div>
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="email">Correo Electronico <span class="text-muted"></span></label>
-              <input type="email" class="form-control" id="email" placeholder="usuario@ejemplo.com">
-              <div class="invalid-feedback">
-                Ingrese un correo electronico valido.
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="address">Dirección</label>
-              <input type="text" class="form-control" id="address" placeholder="Calle Falsa 123, San Joaquín." required>
-              <div class="invalid-feedback">
-                Ingrese una Dirección valida
-              </div>
-            </div>
-
-
-            <label for="genero">Genero</label>
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="same-address">
-              <label class="custom-control-label" for="same-address">Masculino</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="save-info">
-              <label class="custom-control-label" for="save-info">Femenino</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="save-info">
-              <label class="custom-control-label" for="save-info">Otro</label>
-            </div>
-
-            <hr class="mb-4">
-
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Ingresar</button>
-          </form>
-        </div>
+      <div class="py-5 text-center ">
+          <h2>Registro de Personas</h2>
+          <p class="lead">Llene el formulario con los datos de la persona para poder registrarla en el sistema.</p>
       </div>
 
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Company Name</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
+      <div class="col-md-8 order-md-1 mx-auto">
+
+        <form class="needs-validation mx-auto" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Primer Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                  Ingrese un nombre valido.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Apellido Paterno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                  Ingrese un apellido paterno valido.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Apellido Materno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Ingrese un apellido materno valido.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Rut</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Ingrese un Rut valido.
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email">Correo Electronico <span class="text-muted"></span></label>
+            <input type="email" class="form-control" id="email" placeholder="usuario@ejemplo.com">
+            <div class="invalid-feedback">
+              Ingrese un correo electronico valido.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address">Dirección</label>
+            <input type="text" class="form-control" id="address" placeholder="Calle Falsa 123, San Joaquín." required>
+            <div class="invalid-feedback">
+              Ingrese una Dirección valida
+            </div>
+          </div>
+
+
+          <label for="genero">Genero</label>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Masculino</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Femenino</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Otro</label>
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cargo
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Cliente</a>
+              <a class="dropdown-item" href="#">Mecanico</a>
+              <a class="dropdown-item" href="#">Administrativo<a>
+            </div>
+          </div>
+
+          <hr class="mb-4">
+
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Ingresar</button>
+        </form>
+      </div>
+
+      
+      <footer class="footer">
+        <p>&copy; 2021-2025 Taller Mecánico Serviexpress, Inc. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos&nbsp;</a></p>
+        <p class="float-right"><a href="#"> &middot;&nbsp;Volver Arriba</a></p>
       </footer>
     </div>
 
