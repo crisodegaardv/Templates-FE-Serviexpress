@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-icon-items {
+    margin-left: 50px;
+}
+
+#nav-toggler-item {
+    margin-right: 50px;
+}
+
+#nav-a-items {
+    margin-right: 50px;
+}
+
+
+#seccion-bienvenida {
+    position: relative;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    background-image: url(/img/shutterstock_570992530-2-1024x683.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+#seccion-bienvenida p {
+    position: relative;
+
+}
+#seccion-bienvenida h2 {
+    position: relative;
+}
+
+#seccion-bienvenida::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#seccion-nosotros {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.mecanico-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion-nosotros {
+    display: flex;
+}
+
+.us-card {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#seccion-servicios {
+    background-color: #696969;
+}
+
+#seccion-servicios img {
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}
+
+.servi {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nosotros {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-image: url(/img/mecanico2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+#nosotros::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.nosotros-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.nosotros-container h2 {
+    position: relative;
+}
+
+
+
+#form-login {
+    padding: 300px;
+}
+
+#container-registro {
+    justify-content: center;
+}

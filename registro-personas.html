@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Serviexpress | Registro Persona</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Link Css-->
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="style.css">
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="nav-icon-items">
+            <img src="/img/Taller Mecánico Automotriz - Taller Mecanico Tecniexpress_files/logo2.png" alt="">
+        </a>
+        <button class="navbar-toggler" id="nav-toggler-item" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav ml-auto" id="nav-a-items">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reserva de Horas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contactanos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login.html">Inicio de Sesión</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Soy Admin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="registro-personas.html">Registro de Personas</a>
+                <a class="dropdown-item" href="/">Registro de Proveedor</a>
+                <a class="dropdown-item" href="/">Registro de Empresas</a>
+                <a class="dropdown-item" href="/">Registro de Servicios</a>
+                <a class="dropdown-item" href="/">Registro de Producto</a>
+                <a class="dropdown-item" href="/">Registro de Autos</a>
+                <a class="dropdown-item" href="/">Generar Pedido</a>
+                <a class="dropdown-item" href="/">Generar Factura</a>
+                <a class="dropdown-item" href="/">Inventario</a>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div class="py-5 text-center ">
+            <h2>Registro de Personas</h2>
+            <p class="lead">Llene el formulario con los datos de la persona para poder registrarla en el sistema.</p>
+        </div>
+
+        <div class="col-md-8 order-md-1">
+
+          <form class="needs-validation mx-auto" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Primer Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                    Ingrese un nombre valido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Apellido Paterno</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                    Ingrese un apellido paterno valido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Apellido Materno</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Ingrese un apellido materno valido.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Rut</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Ingrese un Rut valido.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Correo Electronico <span class="text-muted"></span></label>
+              <input type="email" class="form-control" id="email" placeholder="usuario@ejemplo.com">
+              <div class="invalid-feedback">
+                Ingrese un correo electronico valido.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Dirección</label>
+              <input type="text" class="form-control" id="address" placeholder="Calle Falsa 123, San Joaquín." required>
+              <div class="invalid-feedback">
+                Ingrese una Dirección valida
+              </div>
+            </div>
+
+
+            <label for="genero">Genero</label>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">Masculino</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Femenino</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Otro</label>
+            </div>
+
+            <hr class="mb-4">
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Ingresar</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
