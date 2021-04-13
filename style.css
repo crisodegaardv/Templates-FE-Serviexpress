@@ -1,3 +1,4 @@
+/*Sección General*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,11 @@ body {
     padding: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
+/*Sección Navbar*/
 #nav-icon-items {
     margin-left: 50px;
 }
@@ -21,7 +27,7 @@ body {
     margin-right: 50px;
 }
 
-
+/*Sección Bienvenida*/
 #seccion-bienvenida {
     position: relative;
     display: flex;
@@ -55,27 +61,12 @@ body {
     right: 0;
 }
 
+/*Sección Nosotros */
 #seccion-nosotros {
-    display: flex;
-    margin-bottom: 50px;
+    padding: 20px;
 }
 
-.mecanico-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#seccion-nosotros {
-    display: flex;
-}
-
-.us-card {
-    text-align: center;
-    margin-top: 50px;
-}
-
+/*Sección Servicios */
 #seccion-servicios {
     background-color: #696969;
 }
@@ -107,12 +98,6 @@ img {
     color: black;
 }
 
-.footer {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 #nosotros {
     position: relative;
     display: flex;
@@ -135,8 +120,6 @@ img {
     right: 0;
 }
 
-
-
 .nosotros-container {
     position: relative;
     display: flex;
@@ -152,7 +135,10 @@ img {
     position: relative;
 }
 
+/*Sección Footer*/
 
+
+/*Form.html*/
 
 #form-login {
     padding: 300px;
